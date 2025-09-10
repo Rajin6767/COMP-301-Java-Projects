@@ -1,0 +1,7 @@
+package com.comp301.a08dungeon.model.pieces;
+
+public class Wall extends APiece {
+  public Wall() {
+    super("Wall", "wall.png"); // or whatever img path u want
+  }
+}
