@@ -1,0 +1,55 @@
+/* dungeon.css */
+
+/* Root background */
+.root {
+    -fx-background-color: #222;
+}
+
+/* Labels (title and score) */
+.label, .score-label {
+    -fx-text-fill: white;
+}
+
+/* Score label styling */
+.score-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0f0;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #444;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 8px 16px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #888;
+    -fx-border-width: 1px;
+}
+
+.button:hover {
+    -fx-background-color: #666;
+    -fx-border-color: #aaa;
+}
+
+/* GridPane cells */
+.grid-pane {
+    -fx-hgap: 0;
+    -fx-vgap: 0;
+    -fx-padding: 10px;
+}
+
+/* ImageView tile size */
+.image-view {
+    -fx-fit-width: 40;
+    -fx-fit-height: 40;
+}
+
+/* Bottom control & score panel */
+.hbox {
+    -fx-background-color: #333;
+    -fx-padding: 10px;
+    -fx-spacing: 20px;
+}
